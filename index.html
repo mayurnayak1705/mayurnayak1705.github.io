@@ -103,6 +103,83 @@
                 <p class="section-subtitle">List of some projects and paper replications</p>
             </div>
             <div class="projects__grid">
+                                <!-- Project 2: Tokenizers from Scratch -->
+                <div class="project-card" data-category="nlp">
+                    <div class="project-card__header">
+                        <div class="project-card__category">Tokenizer Engineering</div>
+                    </div>
+                    <h3 class="project-card__title">Building Tokenizers from Scratch</h3>
+                    <p class="project-card__description">
+                        Implemented character, word, and BPE tokenizers from scratch. BPE tokenizer achieved a vocabulary size of 300 (255 base + 45 merges) and an average compression ratio of 1.25 on English datasets of 10k length. Evaluated on movie dialogues with ratio ≈ 1.2466. Demonstrated encoding efficiency and vocabulary trade-offs.
+                    </p>
+                    <div class="project-card__tech">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">Regex</span>
+                        <span class="tech-tag">GPT-4</span>
+                        <span class="tech-tag">Tokenizer</span>
+                    </div>
+                    <div class="project-card__footer">
+                        <a href="https://lnkd.in/gbJT4SaG" target="_blank" class="project-card__link">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M12 0c-6.626 0-12 5.373-12 12 ..."/>
+                            </svg>
+                            <span>View on GitHub</span>
+                        </a>
+                    </div>
+                </div>
+                
+                
+                <!-- Project 3: Training LLM from Scratch -->
+                <div class="project-card" data-category="deep-learning">
+                    <div class="project-card__header">
+                        <div class="project-card__category">LLM Training</div>
+                    </div>
+                    <h3 class="project-card__title">Training a Transformer-based LLM from Scratch</h3>
+                    <p class="project-card__description">
+                        Developed and trained a transformer-based language model entirely from scratch using Rotary Positional Encoding (RoPE), RMSNorm (pre-norm), and SwiGLU Feed-Forward Networks. Model trained on 2M tokens (TinyStories dataset) using A100 GPUs. Achieved loss of 5.88. All core components, including optimizer, tokenizer, and training loop, implemented manually.
+                    </p>
+                    <div class="project-card__tech">
+                        <span class="tech-tag">Transformers</span>
+                        <span class="tech-tag">RoPE</span>
+                        <span class="tech-tag">SwiGLU</span>
+                        <span class="tech-tag">A100 GPU</span>
+                        <span class="tech-tag">PyTorch</span>
+                    </div>
+                    <div class="project-card__footer">
+                        <a href="https://lnkd.in/gKpwTk8H" target="_blank" class="project-card__link">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M12 0c-6.626 0-12 5.373-12 ..."/>
+                            </svg>
+                            <span>View on GitHub</span>
+                        </a>
+                    </div>
+                </div>
+                
+                
+                <!-- Project 4: Supervised Fine-tuning on MATH Dataset -->
+                <div class="project-card" data-category="ai-education">
+                    <div class="project-card__header">
+                        <div class="project-card__category">Qwen/Qwen2.5-1.5B</div>
+                    </div>
+                    <h3 class="project-card__title">Supervised Fine-tuning on MATH Dataset</h3>
+                    <p class="project-card__description">
+                        Performed SFT on Qwen2.5-1.5B-Instruct using 1,000 examples from the competition_math dataset. Fine-tuned for 1 epoch on H100 GPU with FlashAttention-2 and gradient accumulation (8x). Improved accuracy from 49% to 51%. Implemented custom reward grader (Stanford CS336 alignment) for evaluation of <think></think> and <answer></answer> tags.
+                    </p>
+                    <div class="project-card__tech">
+                        <span class="tech-tag">Qwen2.5</span>
+                        <span class="tech-tag">FlashAttention-2</span>
+                        <span class="tech-tag">bfloat16</span>
+                        <span class="tech-tag">JarvisLabs.ai</span>
+                    </div>
+                    <div class="project-card__footer">
+                        <a href="https://lnkd.in/g6hVWzgh" target="_blank" class="project-card__link">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M12 0c-6.626 0-12 5.373-12 ..."/>
+                            </svg>
+                            <span>View on GitHub</span>
+                        </a>
+                    </div>
+                </div>
                 <!-- Project 1: ETF Investment Agent -->
                 <div class="project-card" data-category="ai-finance">
                     <div class="project-card__header">
