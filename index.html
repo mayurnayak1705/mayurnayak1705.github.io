@@ -166,6 +166,69 @@
       <p class="section-sub reveal">A collection of AI projects and paper replications at the frontier of machine learning.</p>
 
       <div class="projects-grid">
+        <!--KV CACHE-->
+        <article class="pcard reveal">
+          <div class="pcard__top">
+            <span class="pcard__cat">AI + Deep Learning</span>
+            <a href="#" target="_blank" class="pcard__ext" aria-label="Project link">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round">
+                <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/>
+                <polyline points="15,3 21,3 21,9"/>
+                <line x1="10" y1="14" x2="21" y2="3"/>
+              </svg>
+            </a>
+          </div>
+
+          <h3 class="pcard__title">Transformer Attention + KV Cache Optimization</h3>
+
+          <p class="pcard__desc">
+            Built Multi-Head Attention from scratch in PyTorch and implemented KV cache optimization for efficient autoregressive inference. Benchmarked both approaches, achieving ~2.7× speedup by eliminating redundant key/value computations. Explores core transformer internals used in modern LLMs.
+          </p>
+
+          <div class="pcard__tags">
+            <span class="tag">PyTorch</span>
+            <span class="tag">Transformers</span>
+            <span class="tag">Deep Learning</span>
+            <span class="tag">LLM Internals</span>
+            <span class="tag">Performance Optimization</span>
+          </div>
+
+          <div class="pcard__footer">
+            <a href="https://github.com/mayurnayak1705/GPT-2/blob/main/self_attention.py" target="_blank" class="plink">View Code ↗</a>
+          </div>
+        </article>
+        <!--GPT-2-->
+        <article class="pcard reveal">
+          <div class="pcard__top">
+            <span class="pcard__cat">AI + LLM Engineering</span>
+            <a href="#" target="_blank" class="pcard__ext" aria-label="Project link">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round">
+                <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/>
+                <polyline points="15,3 21,3 21,9"/>
+                <line x1="10" y1="14" x2="21" y2="3"/>
+              </svg>
+            </a>
+          </div>
+
+          <h3 class="pcard__title">GPT-2 from Scratch</h3>
+
+          <p class="pcard__desc">
+            Built a GPT-like Transformer model from scratch using PyTorch, implementing token embeddings, sinusoidal positional encoding, masked multi-head self-attention, and feedforward layers. Developed an autoregressive text generation pipeline with causal masking and token-by-token decoding, replicating core LLM architecture principles.
+          </p>
+
+          <div class="pcard__tags">
+            <span class="tag">PyTorch</span>
+            <span class="tag">Transformers</span>
+            <span class="tag">LLM</span>
+            <span class="tag">NLP</span>
+            <span class="tag">Deep Learning</span>
+          </div>
+
+          <div class="pcard__footer">
+            <a href="https://github.com/mayurnayak1705/GPT-2" target="_blank" class="plink">View Code ↗</a>
+          </div>
+        </article>
+
         <!-- Drug–Food Interaction -->
         <article class="pcard reveal">
           <div class="pcard__top">
