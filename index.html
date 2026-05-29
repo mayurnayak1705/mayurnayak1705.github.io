@@ -166,6 +166,49 @@
       <p class="section-sub reveal">A collection of AI projects and paper replications at the frontier of machine learning.</p>
 
       <div class="projects-grid">
+        <!--GQA AND MQA-->
+        <article class="pcard reveal">
+          <div class="pcard__top">
+            <span class="pcard__cat">AI + Deep Learning</span>
+
+            <a href="#" target="_blank" class="pcard__ext" aria-label="Project link">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2.5" stroke-linecap="round">
+                <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/>
+                <polyline points="15,3 21,3 21,9"/>
+                <line x1="10" y1="14" x2="21" y2="3"/>
+              </svg>
+            </a>
+          </div>
+
+          <h3 class="pcard__title">
+            Grouped Query Attention (GQA) + Multi-Query Attention (MQA)
+          </h3>
+
+          <p class="pcard__desc">
+            Implemented Multi-Head Attention (MHA), Grouped Query Attention (GQA),
+            and Multi-Query Attention (MQA) completely from scratch in PyTorch.
+            Explored KV cache optimization techniques used in modern LLMs by reducing
+            key/value heads while preserving attention quality. Built grouped KV-sharing
+            logic, tensor reshaping, logical KV repetition, and efficient autoregressive
+            attention computation used in architectures like Llama and other modern transformers.
+          </p>
+
+          <div class="pcard__tags">
+            <span class="tag">PyTorch</span>
+            <span class="tag">Transformers</span>
+            <span class="tag">Grouped Query Attention</span>
+            <span class="tag">KV Cache</span>
+            <span class="tag">LLM Internals</span>
+            <span class="tag">Performance Optimization</span>
+          </div>
+
+          <div class="pcard__footer">
+            <a href="YOUR_GITHUB_LINK" target="_blank" class="plink">
+              View Code ↗
+            </a>
+          </div>
+        </article>
         <!--KV CACHE-->
         <article class="pcard reveal">
           <div class="pcard__top">
